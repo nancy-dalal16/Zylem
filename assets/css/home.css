@@ -301,6 +301,10 @@ align-items: center;
   height: 100%;
 }
 
+#solution, #industries{
+  padding: 2rem;
+}
+
 }
 
 
