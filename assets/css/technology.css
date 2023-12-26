@@ -1,0 +1,36 @@
+#hero {
+  background: url('../img/Technology/technology\ background.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center right;
+  height: 100vh;
+}
+
+.banner-content-tech {
+  position: relative;
+  top:20%;
+}
+
+.image-content .row img{
+  width: auto;
+}
+
+
+
+
+
+
+/* Media Query Starts */
+
+@media (max-width:680px){
+ .image-content .row img{
+  width: -webkit-fill-available;;
+ }
+ .image-content .reverse{
+  flex-direction: column-reverse;
+}
+
+}
+     
+    
+    /* Media Query Ends */

@@ -1,0 +1,78 @@
+
+#news{
+  background: var(--primary);
+  padding: 5rem 0rem;
+}
+
+input[type="text"]{
+  font-size: 1.4rem;
+  background: transparent;
+  line-height: 1.6rem;
+  color: var(--white);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid var(--white);
+  width: 40rem;
+  padding-right: 5rem;
+}
+
+form button[type="submit"] {
+margin-left: -15rem;
+width: 15rem;
+background: var(--white);
+color: var(--black);
+border: 0;
+padding: 0.5rem 2rem;
+border-radius: 2rem;
+font-size: 1.6rem;
+font-weight: var(--semibold);
+}
+form button[type="submit"]:hover{
+background: var(--parrot);
+color:var(--white);
+border:0;
+}
+
+::placeholder{
+color:var(--white);
+opacity:0.6;
+}
+
+#footer{
+  background: url('../img/Footer/footer\ background.png');
+  background-position: auto 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 2rem;
+}
+
+#footer p{
+  color:var(--white);
+}
+
+#footer h4{
+  color:var(--white);
+  font-size:2.4rem;
+  line-height: 3rem;
+  font-weight: var(--bold);
+}
+
+#footer h4 a {
+  color:var(--white);
+}
+
+#footer a:hover{
+  color:var(--parrot)
+}
+
+#footer a {
+  color:var(--white);
+  line-height: 2rem;
+}
+.copy{
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+}
+.copy p a{
+  opacity:1; 
+  font-weight: var(--bold) !important;
+}

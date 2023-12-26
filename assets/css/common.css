@@ -1,0 +1,262 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url('../fonts/Nunito_Sans/NunitoSans_7pt-Black.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans';
+    box-sizing: border-box;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+:root {
+    --primary: #65221A; 
+    --green: #138808;
+    --parrot:#68C430;
+    --black: #1E1E1E;
+    --darkblack:#000;
+    --lightwhite: #F7F4F4;
+    --white: #fff;
+    --extrabold: bold;
+    --bold: 700;
+    --medium: 600;
+    --semibold: 500;
+    --regular: 400;
+    --light: 300;
+}
+
+p {
+    /* margin-bottom: 8px; */
+    line-height: 2.4rem;
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: var(--regular);
+    opacity:0.7;
+}
+
+.inverse {
+    color: var(--white) !important;
+}
+
+.page-section {
+    padding: 10rem 0px;
+}
+
+
+.btn-primary {
+    font-size: 1.6rem;
+    /* padding: 0.62rem 2.25rem; */
+    padding: 1rem 1.6rem !important;
+    border-radius: 2rem;
+    border:0;
+    background: var(--primary);
+    color: var(--white) !important;
+    opacity: 1 !important;
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+.btn-primary:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color:var(--primary) !important;
+}
+
+.btn-secondary {
+    font-size: 1.6rem;
+    padding: 1rem 1.6rem !important;
+    border-radius: 2rem;
+    border:0px;
+    background: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: var(--parrot);
+    color:var(--white)
+}
+
+.btn-white {
+    font-size: 1.6rem;
+    padding: 1rem 1.6rem;
+    border-radius: 2rem;
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+
+.btn-white:hover {
+    background: var(--primary);
+    color:var(--white);
+    border: 0px;
+}
+
+.btn-green-inverse{
+    font-size: 1.6rem;
+    padding: 1rem 1.6rem !important;
+    border-radius: 2rem;
+    border:1px solid var(--white);
+    background: transparent;
+    color: var(--white);
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+
+.btn-green-inverse:hover{
+background: var(--primary);
+border:0;
+}
+
+
+.btn-inverse {
+    font-size: 1rem;
+    padding: 0.8rem 2rem !important;
+    border-radius: 1.8rem;
+    border: 1px solid #fff;
+    background: transparent;
+    color: var(--white);
+    transition: all 0.3s;
+    font-weight: var(--semibold);
+    display: inline-block;
+}
+.btn-inverse:hover {
+    background: var(--white);
+    color:var(--darkblue);
+}
+
+
+
+h4 {
+    color: var(--black);
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: var(--bold);
+}
+
+h5{
+    color:var(--black);
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    font-weight: var(--bold);
+}
+
+#hero {
+    background: url('../img/Home/Group\ 53.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center right;
+    height: 100vh;
+}
+
+
+.section-title h2 {
+    color: var(--darkblack);
+    font-size: 3.6rem;
+    font-weight: var(--bold);
+    line-height: 4.4rem;
+    text-transform: uppercase;
+}
+
+.owl-dot span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 1.25rem;
+    background-color: #DFDDDD;
+    margin: 0.25rem;
+}
+
+.owl-dot.active span {
+    background-color: var(--primary)
+}
+
+
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+}
+
+
+/* Media Query Starts */
+
+@media (max-width:998px){
+html{
+    font-size: 55%;
+}
+}
+
+@media (max-width:768px){
+html{
+    font-size: 45%;
+}
+}
+   
+  
+  /* Media Query Ends */
