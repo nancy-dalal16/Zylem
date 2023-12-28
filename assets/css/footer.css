@@ -17,7 +17,7 @@ input[type="text"]{
 }
 
 form button[type="submit"] {
-margin-left: -15rem;
+margin-left: -15.2rem;
 width: 15rem;
 background: var(--white);
 color: var(--black);
@@ -28,7 +28,7 @@ font-size: 1.6rem;
 font-weight: var(--semibold);
 }
 form button[type="submit"]:hover{
-background: var(--parrot);
+background: var(--green);
 color:var(--white);
 border:0;
 }
@@ -62,7 +62,7 @@ opacity:0.6;
 }
 
 #footer a:hover{
-  color:var(--parrot)
+  color:var(--green)
 }
 
 #footer a {

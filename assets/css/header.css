@@ -1,5 +1,5 @@
 header {
-  padding: 1.5rem 0px;
+  padding: 2rem;
   position: relative;
   top: 1rem;
   width: 100%;
@@ -103,26 +103,27 @@ header {
       /* background: #0B0D31; */
       /* backdrop-filter: blur(200px); */
       background: var(--white);
-      position: absolute;
-      top: 6rem;
+      position: fixed;
+      top: 10rem;
       left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transform: translateY(-100%);
+      display: grid;
+      justify-content: left;
+      align-items: baseline;
+      transform: translateX(-100%);
       transition: all 0.7s ease;
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
       z-index: 999;
-      margin: 5px;
-      height: 85vh;
+      /* margin: 5px; */
+      height: 90vh;
+      width: 80%;
   }
 
   .navigation li {
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
       margin: 1rem;
   }
@@ -133,6 +134,7 @@ header {
       justify-content: center;
       width: 100%;
       gap: 0.5rem;
+      margin-top:5rem;
 
   }
 
@@ -140,7 +142,7 @@ header {
       display: block !important;
       text-align: center;
       padding: 0.5rem;
-      font-size: 1.5rem;
+      font-size: 3rem;
   }
 
   .active .navigationHolder {

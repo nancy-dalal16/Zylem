@@ -125,16 +125,16 @@
 }
 
 #product .row .col-md-6{
- width: 30%;
+ /* width: 50%; */
 }
 
 
 
 .hex{
   /* background: var(--white); */
-  padding: 12rem 3rem;
+  padding: 12rem 4rem;
   background-image: url('../img/Home/Polygon\ 2.png');
-  background-size: contain 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -150,7 +150,7 @@
 
 
 .row-hex2{
-  margin-top:-18rem;
+  margin-top:-17rem;
 }
 
 .hex h4{

@@ -130,11 +130,11 @@
   padding:5rem;
   display: flex;
 }
-
+/* 
 #product .row .col-md-6{
   width: 30%;
  }
- 
+  */
 .hex{
   /* background: var(--white); */
   padding: 12rem 5rem;
@@ -169,7 +169,7 @@
 }
 
 .row-hex3{
-  margin-top:-11rem;
+  margin-top:-10rem;
 }
 
 
