@@ -92,6 +92,10 @@
   height: 20rem;
 
 }
+
+.card:hover{
+  scale:1.05;
+}
 .card-1{
   background: url('../img/Home/Frame\ 49.png');
   background-repeat: no-repeat;
@@ -139,6 +143,10 @@
   background-position: center;
 }
 
+.hex:hover{
+  scale: 1.1;
+}
+
 .zylem-product{
   background-image: url('../img/Home/Zylem\ Product.png') !important;
 }
@@ -175,6 +183,10 @@
   height: 100%;
 }
 
+.sol-card:hover{
+  scale: 1.05;
+}
+
 .sol-card h6{
   font-size: 2rem;
   line-height: 2.6rem;
@@ -197,8 +209,8 @@
   background: var(--white);
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10); */
   padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 3rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
   padding-top: 10rem;
   background: url('../img/Home/testi-background.png');
   background-repeat: no-repeat;
@@ -228,6 +240,10 @@ opacity:0.7;
 background: var(--white);
 box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
 padding: 2rem;;
+}
+
+.ind-card:hover{
+  scale:1.05;
 }
 
 .ind-card h5{
@@ -310,6 +326,12 @@ align-items: center;
   padding: 2rem;
 }
 
+.test-contain{
+  padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 16rem;
+}
 }
 
 

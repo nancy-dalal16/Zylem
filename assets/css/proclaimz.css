@@ -1,0 +1,70 @@
+#hero {
+  background: url('../img/Proclaimz/proclaimz\ background.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+}
+
+#boxes{
+  background: url('../img/Proclaimz/getting\ started\ background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.color-box{
+  background: url('../img/Proclaimz/Getting\ started\ with\ Proclaimz.png');
+  background-repeat: no-repeat;
+  background-size: contain 100%;
+  background-position:center;
+}
+
+.test-contain {
+  padding-left: 3rem;
+  padding-right: 10rem !important;
+  padding-bottom: 10rem !important;
+  padding-top: 10rem; 
+}
+
+#effic .row h5, #security .row h5{
+  font-size: 2rem;
+  font-weight: var(--bold);
+  line-height: 2.4rem;
+  color:var(--black);
+}
+
+.lists li {
+  margin:2rem;
+}
+
+.content{
+  padding: 0rem 5rem;
+}
+
+#security{
+  background: #65221A0D;
+  background-image: url('../img/Proclaimz/security\ background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#ready{
+  background: url('../img/Proclaimz/ready\ background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+@media(max-width:680px){
+  .effic-row{
+    flex-direction: column-reverse;
+  }
+
+  .test-contain{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 16rem;
+  }
+}

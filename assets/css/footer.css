@@ -4,7 +4,7 @@
   padding: 5rem 0rem;
 }
 
-input[type="text"]{
+.input-form input[type="text"]{
   font-size: 1.4rem;
   background: transparent;
   line-height: 1.6rem;
@@ -16,7 +16,7 @@ input[type="text"]{
   padding-right: 5rem;
 }
 
-form button[type="submit"] {
+.input-form form button[type="submit"] {
 margin-left: -15.2rem;
 width: 15rem;
 background: var(--white);
@@ -27,7 +27,7 @@ border-radius: 2rem;
 font-size: 1.6rem;
 font-weight: var(--semibold);
 }
-form button[type="submit"]:hover{
+.input-form form button[type="submit"]:hover{
 background: var(--green);
 color:var(--white);
 border:0;

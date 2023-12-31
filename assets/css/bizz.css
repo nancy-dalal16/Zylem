@@ -12,12 +12,19 @@
   top:20%;
 }
 
+.hex:hover{
+  scale: 1.1;
+}
 .sol-card{
   border-radius: 1rem;
   background: var(--white);
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
   padding: 2rem;
   height: 100%;
+}
+
+.sol-card:hover{
+  scale: 1.05;
 }
 
 .row-hex2{
@@ -27,9 +34,16 @@
   margin-top:-13rem;
 }
 
-@media(max-width:680px){
-  #hero {
-    min-height: 22rem;
+   
+@media (max-width:680px){
+
+  .row-hex2{
+    margin-top: 0 !important;
   }
+
+  .row-hex3{
+    margin-top: 0;
+  }
+
 }
 

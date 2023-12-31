@@ -27,3 +27,19 @@
 /* #why .row .col-md-6{
   width: 30%;
  } */
+
+ 
+@media (max-width:680px){
+
+  .row-hex2{
+    margin-top: 0 !important;
+  }
+
+  .row-hex3{
+    margin-top: 0;
+  }
+
+  #why .hex p{
+    padding: 2rem;
+  }
+}

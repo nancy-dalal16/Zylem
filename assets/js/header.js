@@ -7,4 +7,9 @@ const toggleNavbar = () => {
     header_nav.classList.toggle("active");
 }
 
-mobile_nav.addEventListener("click", () => toggleNavbar());
+mobile_nav.addEventListener("click", () => toggleNavbar(
+   document.body.style.overflowY = document.body.style.overflowY === 'hidden' ? 'visible' : 'hidden'
+));
+
+
+

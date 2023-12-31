@@ -2,7 +2,7 @@
   background: url('../img/Zylem/Zylem\ background.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center right;
+  background-position:center;
   height: 100vh;
 }
 
@@ -145,6 +145,10 @@
   
 }
 
+.hex:hover{
+  scale:1.1;
+}
+
 .hex h6{
   font-size: 1.6rem;
   font-weight: var(--bold);
@@ -181,6 +185,10 @@
   height: 100%;
 }
 
+.sol-card:hover{
+  scale: 1.05;
+}
+
 .sol-card h6{
   font-size: 1.8rem;
   line-height: 2.6rem;
@@ -201,6 +209,13 @@
     text-align: left;
   }
 
+  .row-hex2{
+    margin-top: 0;
+  }
+
+  .row-hex3{
+    margin-top: 0;
+  }
 }
      
     

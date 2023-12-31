@@ -1,9 +1,11 @@
 header {
   padding: 2rem;
-  position: relative;
-  top: 1rem;
+  position: sticky;
   width: 100%;
-  z-index: 20;
+  z-index: 999;
+}
+header #logo img{
+  max-width: 15rem;
 }
 
 /* #logo {
@@ -74,13 +76,31 @@ header {
   color:var(--primary);
 }
 
+.has-megamenu {
+  position: static!important;
+}
 
-.dropdown-menu.show{
-  border-radius: 7px;
+ .megamenu {
+  left: 0;
+  right: 0;
+  width: 65%;
+  margin-top: 2rem !important;
+  padding: 1rem;
+  position: relative;
   background: var(--white);
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
   border-top: 2.5px solid var(--primary);
-  transform: translate(-35%, 50px) !important;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.dropdown-menu.show{
+  /* border-radius: 7px;
+  background: var(--white);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+  border-top: 2.5px solid var(--primary);
+  position:  absolute !important;
+  top:2rem !important; */
+  /* transform: translate(-35%, 50px) !important; */
 }
 
 @media(max-width:992px) {
@@ -104,7 +124,7 @@ header {
       /* backdrop-filter: blur(200px); */
       background: var(--white);
       position: fixed;
-      top: 10rem;
+      top: 7rem;
       left: 0;
       display: grid;
       justify-content: left;
@@ -116,16 +136,18 @@ header {
       pointer-events: none;
       z-index: 999;
       /* margin: 5px; */
-      height: 90vh;
-      width: 80%;
+      height: 100%;
+      width: 100%;
+      overflow-y: scroll;
   }
 
   .navigation li {
       width: 100%;
       display: flex;
       justify-content: left;
-      align-items: center;
+      align-items: baseline;
       margin: 1rem;
+      flex-direction: column;
   }
 
   .navigation {
@@ -211,6 +233,24 @@ header {
   .banner-content-home {
      top:10%;
       width: 77%;
+  }
+
+  .dropdown-menu.show ul li{
+display: flex;
+flex-wrap: wrap;
+  }
+
+  .megamenu{
+    width: 90%;
+  }
+  .megamenu .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .part2 {
+    text-align: left;
+    padding: 1rem;
   }
 
 }
