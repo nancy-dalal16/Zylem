@@ -183,6 +183,10 @@ color:var(--primary);
 .join-img{
   margin-top:-7rem;
 }
+
+#hero img{
+  width: 100%;
+}
 }
 
 @media(max-width:680px){
