@@ -177,10 +177,14 @@ left:auto !important;
 				margin-top: 0;
       }
       .navbar-collapse li {
-        padding: 0rem;
-      }
+        padding: 1rem 0rem;
+    }
+    .navbar-nav li a {
+      font-size: 2rem;
+      line-height: 2.4rem;
+    }
       .navbar-nav{
-        margin-top:2rem;
+        margin-top:5rem;
       }
 		}
 
