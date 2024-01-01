@@ -197,6 +197,13 @@ left:auto !important;
       .navbar-nav{
         margin-top:5rem;
       }
+      .navbar .megamenu{
+        background: var(--white);
+        box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+        border-top: 2.5px solid var(--primary);
+        border-radius: 7px;
+    }
+    
 		}
 
 		/* ============ mobile view .end// ============ */
