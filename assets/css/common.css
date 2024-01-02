@@ -262,9 +262,11 @@ h5{
 
 /* Media Query Starts */
 
-@media (max-width:998px){
+    
+
+@media (max-width:1250px){
 html{
-    font-size: 55%;
+    font-size: 50%;
 }
 }
 

@@ -201,6 +201,12 @@
 
 /* Media Query Starts */
 
+@media (max-width:1250px){
+  .row-hex2, .row-hex3{
+    margin-top: -14rem;
+  }
+}
+
 @media (max-width:680px){
   .left-tab .row{
     flex-direction: row-reverse;

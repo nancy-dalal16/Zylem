@@ -263,6 +263,12 @@ padding: 2rem;;
 
 /* Media Query Starts */
 
+@media all and (max-width: 1250px) {
+.test-contain{
+ padding-bottom: 11rem;
+}
+}
+
 
 @media (max-width:680px){
   

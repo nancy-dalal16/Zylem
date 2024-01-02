@@ -107,6 +107,16 @@ margin: 1rem;
   background-size: cover;
 }
 
+@media (max-width:1250px){
+  .test-contain{
+    padding-bottom: 11rem !important;
+    }
+
+    .hex {
+      padding: 12rem 6rem !important;
+    }
+}
+
 @media(max-width:680px){
   .effic-row{
     flex-direction: column-reverse;
