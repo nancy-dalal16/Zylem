@@ -31,15 +31,16 @@
 
  @media (max-width:1250px){
   .row-hex2{
-    margin-top: -20rem !important;
+    margin-top: -16rem !important;
   }
 
   .row-hex3{
-    margin-top: -22rem !important;
+    margin-top: -18rem !important;
   }
  }
  
 @media (max-width:680px){
+
 
   .row-hex2{
     margin-top: 0 !important;

@@ -118,6 +118,7 @@ margin: 1rem;
 }
 
 @media(max-width:680px){
+  
   .effic-row{
     flex-direction: column-reverse;
   }

@@ -215,6 +215,10 @@
     text-align: left;
   }
 
+  .hex{
+    padding: 12rem 8rem;
+  }
+
   .row-hex2{
     margin-top: 0;
   }
