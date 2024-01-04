@@ -34,6 +34,12 @@
   margin-top:-13rem;
 }
 
+@media (max-width:1280px) {
+  .row-hex2, .row-hex3{
+    margin-top:-18rem ;
+  }
+}
+
 @media (max-width:1250px){
   
 .row-hex2{

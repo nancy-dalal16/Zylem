@@ -155,7 +155,7 @@
 }
 
 .zylem-product{
-  background-image: url('../img/Zylem/Group\ 79.png') !important;
+  background-image: url('../img/Zylem/Group\ 77.png') !important;
 }
 
 
@@ -200,6 +200,8 @@
 
 
 /* Media Query Starts */
+
+
 
 @media (max-width:1250px){
   .row-hex2, .row-hex3{

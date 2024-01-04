@@ -70,7 +70,9 @@ padding: 3rem;
 margin: 1rem;
 }
 
-
+.test-contain img{
+  border-radius: 50%;
+}
 .test-contain {
   padding-left: 3rem;
   padding-right: 10rem !important;
