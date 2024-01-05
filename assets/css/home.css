@@ -64,9 +64,30 @@
   position: absolute;
     left: 50%;
     bottom: 45%;
+    animation-name:ripple;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    border-radius: 50%;
 }
+
+@keyframes ripple{
+
+0%{
+box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+}
+70%{
+  box-shadow: 0 0 0 5px #fff0, 0 0 0 10px #fff0;
+}
+100%{
+  box-shadow: 0 0 0 5px #fff0, 0 0 0 10px #fff0;
+}
+
+}
+
 .play-icon img:hover{
   cursor:pointer;
+  scale: 1.05;
 }
 
 .side-text p{
@@ -95,6 +116,10 @@
 
 .card:hover{
   scale:1.05;
+}
+
+.card:hover .row img{
+  scale: 1.4;
 }
 .card-1{
   background: url('../img/Home/Frame\ 49.png');
@@ -145,6 +170,18 @@
 
 .hex:hover{
   scale: 1.1;
+}
+
+.hex:hover a{
+  color: var(--white) !important;
+  background: var(--primary);
+  border:1px solid var(--primary);
+}
+
+.hex:hover a:hover{
+  background: transparent;
+  border: 1px solid var(--primary);
+  color:var(--primary) !important;
 }
 
 .zylem-product{
@@ -243,9 +280,16 @@ background: var(--white);
 box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
 padding: 2rem;;
 }
+.ind-card .row img{
+  width: 100%;
+}
 
 .ind-card:hover{
   scale:1.05;
+}
+
+.ind-card:hover .row img{
+  scale: 1.2;
 }
 
 .ind-card h5{
