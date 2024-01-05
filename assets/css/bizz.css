@@ -63,3 +63,9 @@
 
 }
 
+
+@media(min-width:2100px){
+  .hex{
+    padding: 12rem 18rem;
+  }
+}

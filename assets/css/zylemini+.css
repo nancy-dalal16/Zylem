@@ -15,10 +15,10 @@
 }
 
 .row-hex2{
-  margin-top:-18rem !important;
+  margin-top:-15rem !important;
 }
 .row-hex3{
-  margin-top:-20rem;
+  margin-top:-15rem;
 }
 
 #why{
@@ -57,4 +57,10 @@
   #why .hex p{
     padding: 2rem;
   }
+}
+
+@media (min-width: 2100px){
+.hex {
+    padding: 30rem 5rem;
+}
 }

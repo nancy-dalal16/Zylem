@@ -132,6 +132,8 @@
   background-repeat: no-repeat;
   padding:5rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 
 #product .row .col-md-6{
@@ -232,6 +234,12 @@
     margin-top: 0;
   }
 }
-     
+
+
+@media(min-width:2100px){
+  .hex{
+    padding: 18rem 5rem;
+  }
+}
     
     /* Media Query Ends */
