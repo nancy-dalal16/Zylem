@@ -1,9 +1,12 @@
 #hero {
   background: url('../img/Proclaimz/proclaimz\ background.png') !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #boxes{
@@ -42,20 +45,20 @@
 }
 
 .border1{
-border-top: 5px solid #fff;
-border-bottom: 5px solid #fff;
-border-left: 5px dashed #fff;
-border-right: 5px dashed #fff;
-border-radius: 2rem;
-padding: 3rem;
-margin: 1rem;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  border-left: 5px dashed #fff;
+  border-right: 5px dashed #fff;
+  border-radius: 2rem;
+  padding: 3rem;
+  margin: 1rem;
 }
 
 .border2{
   border-top: 5px solid #fff;
-border-bottom: 5px solid #fff;
-border-left: 5px dashed #fff;
-border-right: 5px dashed #fff;
+  border-bottom: 5px solid #fff;
+  border-left: 5px dashed #fff;
+  border-right: 5px dashed #fff;
   border-radius: 2rem;
   padding: 3rem;
   margin: 1rem;
@@ -65,9 +68,9 @@ border-right: 5px dashed #fff;
   border-bottom: 5px solid #fff;
   border-left: 5px dashed #fff;
   border-right: 5px dashed #fff;
-border-radius: 2rem;
-padding: 3rem;
-margin: 1rem;
+  border-radius: 2rem;
+  padding: 3rem;
+  margin: 1rem;
 }
 
 .test-contain img{

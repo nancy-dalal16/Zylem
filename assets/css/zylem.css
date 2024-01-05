@@ -1,14 +1,17 @@
 #hero {
   background: url('../img/Zylem/Zylem\ background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-content-zylem {
   position: relative;
-  top:30%;
+  /* top:30%; */
 }
 
 #about {

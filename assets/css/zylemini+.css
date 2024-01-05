@@ -1,13 +1,17 @@
 #hero {
   background: url('../img/Zylemini/zylemini\ background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center right;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center right !important;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .banner-content-zylemini {
   position: relative;
-  top:20%;
+  /* top:20%; */
 }
 
 .row-hex2{

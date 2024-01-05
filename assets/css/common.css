@@ -226,7 +226,10 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center right;
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

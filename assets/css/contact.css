@@ -1,14 +1,17 @@
 .banner-content-contact {
   position: relative;
-  top: 40%;
+  /* top: 40%; */
 }
 
 #hero {
   background: url('../img/Contact/contact\ background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
   height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 hr{
   border: 1px solid #1E1E1E1A;

@@ -1,14 +1,17 @@
 #hero {
   background: url('../img/Technology/technology\ background.png') !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center right;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center right !important;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-content-tech {
   position: relative;
-  top:20%;
+  /* top:20%; */
 }
 
 .image-content .row img{

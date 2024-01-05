@@ -22,7 +22,7 @@ header #logo img{
 
 .banner-content-home {
   position: relative;
-  top: 10%;
+  /* top: 10%; */
   /* width: 50%; */
 }
 
@@ -96,7 +96,7 @@ left:auto !important;
     width:100%;
   }
   .banner-content-home {
-     top:10%;
+     /* top:10%; */
       width: 77%;
   }
 

@@ -1,15 +1,16 @@
 #hero {
   background: url('../img/BizzControl/bizzcontrol\ background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center right;
-  /* height: 100vh; */
-  min-height: 100%;
-  max-height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center right !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner-content-bizzcontrol {
   position: relative;
-  top:20%;
+  /* top:20%; */
 }
 
 .hex:hover{
