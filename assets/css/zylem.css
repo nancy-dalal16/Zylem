@@ -201,7 +201,24 @@
   font-weight: var(--bold);
 }
 
-
+.sol-card:hover .sol-img1 img{
+  content:url('../img/Zylem/sales\ report-hover.svg');
+}
+.sol-card:hover .sol-img2 img{
+  content:url('../img/Zylem/custom-report-hover.svg');
+}
+.sol-card:hover .sol-img3 img{
+  content:url('../img/Zylem/mobile\ computing-hover.svg');
+}
+.sol-card:hover .sol-img4 img{
+  content:url('../img/Zylem/user-friendly-hover.svg');
+}
+.sol-card:hover .sol-img5 img{
+  content:url('../img/Zylem/power\ bi-hover.svg');
+}
+.sol-card:hover .sol-img6 img{
+  content:url('../img/Zylem/email\ reports-hover.svg');
+}
 
 
 /* Media Query Starts */
