@@ -347,7 +347,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
   background-size: cover;
 }
 .test-contain img{
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .test-contain .row h6{
   font-size:1.6rem;
