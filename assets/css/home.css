@@ -337,14 +337,23 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
   /* border-radius: 3rem;
   background: var(--white);
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10); */
-  padding-left: 3rem;
+  /* padding-left: 3rem;
   padding-right: 10rem;
   padding-bottom: 10rem;
-  padding-top: 10rem;
-  background: url('../img/Home/testi-background.png');
+  padding-top: 10rem; */
+  padding: 10rem 3rem;
+  background: url('../img/Home/testi\ background.svg');
   background-repeat: no-repeat;
   background-position: auto 100%;
-  background-size: cover;
+  background-size: contain;
+}
+
+.award-section{
+  background: url('../img/Home/testi\ back2.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: auto 100% !important;
+  background-size: contain !important;
+  padding:5rem 2rem !important;
 }
 .test-contain img{
   /* border-radius: 50%; */
@@ -475,6 +484,12 @@ align-items: center;
     padding-right: 10rem;
     padding-bottom: 10rem;
     padding-top: 16rem;
+    background-size: cover;
+}
+
+.award-section{
+  background-size: cover !important;
+  padding: 10rem !important;
 }
 
 .sol-card{
@@ -484,6 +499,8 @@ align-items: center;
 #solution .row > .col-md-3 {
   margin-top: 2rem;
 }
+
+
 }
 
 

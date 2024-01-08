@@ -83,6 +83,14 @@
   padding-top: 10rem; 
 }
 
+.award-section{
+  background: url('../img/Home/testi\ back2.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: auto 100% !important;
+  background-size: contain !important;
+  padding:5rem 2rem !important;
+}
+
 #effic .row h5, #security .row h5{
   font-size: 2rem;
   font-weight: var(--bold);
@@ -133,5 +141,11 @@
     padding-right: 10rem;
     padding-bottom: 10rem;
     padding-top: 16rem;
+    background-size: cover;
   }
+  
+.award-section{
+  background-size: cover !important;
+  padding: 10rem !important;
+}
 }
