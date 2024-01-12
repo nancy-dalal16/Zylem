@@ -8,7 +8,10 @@
   padding: 5rem;
   border-radius: 1rem;
 }
-
+#sapl:hover{
+  scale: 1.05;
+  transition: ease-in 0.1s;
+}
 #sapl:hover .btn-white-inverse{
 background: var(--green);
 border:1px solid var(--green);
