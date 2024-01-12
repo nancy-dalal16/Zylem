@@ -166,22 +166,22 @@
   <!-- Banner Section Ends -->
 
   <!--SAPL Banner Section Starts-->
+
   <section id="sapl" class="page-section" data-aos="fade-up" data-aos-delay="400">
-    <a href="https://sapl.net" target="_blank">
-      <div class="container">
-        <div class=" d-flex justify-content-evenly align-items-center flex-wrap">
-          <div class="d-flex justify-content-center align-items-center flex-wrap">
-            <img src="assets/img/About/SAPL Logo.png" alt="SAPL Logo">
-            <h4 class="inverse p-5 text-center" style="text-transform: uppercase;">Sales & Distribution Management
-              Automation</h4>
-          </div>
-          <div class="text-center">
-            <a class="btn-white-inverse " href="https://sapl.net" target="_blank">Check SAPL's website</a>
-          </div>
+    <div class="container">
+      <div class="abt-sapl d-flex justify-content-evenly align-items-center flex-wrap">
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+          <img src="assets/img/About/SAPL Logo.png" alt="SAPL Logo">
+          <h4 class="inverse p-5 text-center" style="text-transform: uppercase;">Sales & Distribution Management
+            Automation</h4>
+        </div>
+        <div class="text-center">
+          <a class="btn-white-inverse" href="https://sapl.net" target="_blank">Check SAPL's website</a>
         </div>
       </div>
-    </a>
+    </div>
   </section>
+
   <!--SAPL Banner Section Ends-->
 
   <!--Our Journey Section Starts-->
@@ -676,6 +676,13 @@
     };
 
     window.onload = getBlogs;
+  </script>
+
+  <script>
+    $('#sapl').each(function () {
+      var link = $(this).html();
+      $(this).contents().wrap('<a href="https://sapl.net" target="_blank"></a>');
+    });
   </script>
 
 </body>
