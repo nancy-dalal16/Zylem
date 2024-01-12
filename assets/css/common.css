@@ -166,6 +166,27 @@ p {
     border: 1px solid var(--primary);
 }
 
+.btn-white-inverse{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 0.8rem 1.6rem;
+    gap: 1rem;
+    color: var(--white);
+    background: trnsparent;
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+    font-weight: var(--semibold);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;  
+}
+
+.btn-white-inverse:hover{
+    background: var(--green);
+    color:var(--white);
+    border: 1px solid var(--green);
+}
+
 .btn-green-inverse{
     font-size: 1.6rem;
     padding: 0.8rem 1.6rem !important;
