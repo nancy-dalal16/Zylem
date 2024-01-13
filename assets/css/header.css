@@ -51,6 +51,10 @@ left:auto !important;
   margin:0px;
 }
 
+.list-unstyled .nav-link{
+  padding-left:0px !important;
+}
+
 @media(max-width:992px) {
 
   #logo img {

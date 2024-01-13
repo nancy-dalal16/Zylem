@@ -296,7 +296,7 @@ h5{
 
 @media (max-width:1280px){
 html{
-    font-size: 54%;
+    font-size: 55%;
 }
 }
 
@@ -304,13 +304,13 @@ html{
     
 @media (max-width:1024px){
     html{
-        font-size: 40%;
+        font-size: 45%;
     }
     }
 
 @media (max-width:769px){
     html{
-        font-size: 30%;
+        font-size: 35%;
         }
 }
         
