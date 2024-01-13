@@ -689,7 +689,7 @@
     async function getBlogs() {
       $.ajax({
         method: "GET",
-        url: `https://sapl.net/resource/wp-json/wp/v2/posts?_embed&per_page=3`,
+        url: `https://blogs.zylem.co.in/wp-json/wp/v2/posts?_embed&per_page=3`,
         success: function (data) {
           console.log(data)
           data.forEach(post => {
