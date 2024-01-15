@@ -369,8 +369,10 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 }
 
 .test-contain .row p:last-child{
-font-size: 1.4rem;
-line-height: 2.4rem;
+/* font-size: 1.4rem;
+line-height: 2.4rem; */
+font-size: 1.2rem;
+line-height: 2rem;
 font-weight: var(--regular);
 opacity:0.7;
 }
