@@ -1,7 +1,7 @@
 <?php 
 
 $errors = '';
-$myemail = 'nancydalal16@gmail.com';//<-----Put Your email address here.
+$myemail = 'sales@sapl.net';//<-----Put Your email address here.
 if(empty($_POST['name'])  ||
 	empty($_POST['email']) ||
 	   empty($_POST['phone']) ||
@@ -26,7 +26,7 @@ $comment = $_POST['comment'];
 	$email_body = "You have received a new message. ".
 	" Here are the details:\n Name: $name \n Email: $email \n Phone: $phone \n Product: $product  \n Comment: $comment "; 
 	
-	$headers = "From: nancydalal16@gmail.com"; 
+	$headers = "From: sales@sapl.net"; 
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
