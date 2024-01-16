@@ -85,6 +85,8 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 
 }
 
+
+
 .play-icon img:hover{
   cursor:pointer;
   scale: 1.05;
@@ -439,7 +441,7 @@ padding: 2rem;;
   right:-20px;
 }
 .side-text p{
-  bottom: -25%;
+  bottom: -20%;
   left: 5px;
   width: 97%;
 }
