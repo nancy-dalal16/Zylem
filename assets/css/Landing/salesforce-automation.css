@@ -144,9 +144,7 @@
   background-size: contain !important;
   padding:5rem 2rem !important;
 }
-.test-contain img{
-  /* border-radius: 50%; */
-}
+
 .test-contain .row h6{
   font-size:1.6rem;
   font-weight: var(--bold);
