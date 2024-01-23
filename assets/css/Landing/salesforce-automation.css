@@ -107,6 +107,9 @@
   background: var(--white);
   padding: 2rem;
   height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
