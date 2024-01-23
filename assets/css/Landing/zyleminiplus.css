@@ -1,0 +1,108 @@
+#hero {
+  background: url('../../img/Landing/Zyleminiplus/image\ 22.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#primary-card  .container{
+  background: var(--primary);
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.tablinks h5{
+  font-size: 1.4rem;
+}
+
+#patent{
+  background: url('../../img/Landing/Zyleminiplus/image\ 27.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top center ;
+}
+
+.card {
+  height: 12rem;
+}
+
+
+.card-1{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 49.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+.card-2{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 50.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-3{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 51.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-4{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 52.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-5{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 53.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-6{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 54.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-7{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 55.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-8{
+  background: url('../../img/Landing/Zyleminiplus/Frame\ 56.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+
+.sol-cards:hover .sol-img-1 img{
+  content:url('../../img/Landing/Zyleminiplus/outlet-management-inverse.svg');
+}
+.sol-cards:hover .sol-img-2 img{
+  content:url('../../img/Landing/Zyleminiplus/order-management-inverse.svg');
+}
+.sol-cards:hover .sol-img-3 img{
+  content:url('../../img/Landing/Zyleminiplus/various-payment-inverse.svg');
+}
+.sol-cards:hover .sol-img-4 img{
+  content:url('../../img/Landing/Zyleminiplus/schema-management-inverse.svg');
+}
+.sol-cards:hover .sol-img-5 img{
+  content:url('../../img/Landing/Zyleminiplus/data-collection-inverse.svg');
+}
+.sol-cards:hover .sol-img-6 img{
+  content:url('../../img/Landing/Zyleminiplus/adding-new-inverse.svg');
+}
+.sol-cards:hover .sol-img-7 img{
+  content:url('../../img/Landing/Zyleminiplus/asset-management-inverse.svg');
+}
+.sol-cards:hover .sol-img-8 img{
+  content:url('../../img/Landing/Zyleminiplus/activity-reporting-inverse.svg');
+}

@@ -1,0 +1,55 @@
+#hero {
+  background: url('../../img/Landing/Zylem/image\ 22.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sol-cards:hover .sol-img-1 img{
+  content:url('../../img/Landing/Zylem/patented-inverse.svg');
+}
+.sol-cards:hover .sol-img-2 img{
+  content:url('../../img/Landing/Zylem/complete-inverse.svg');
+}
+.sol-cards:hover .sol-img-3 img{
+  content:url('../../img/Landing/Zylem/remotely-inverse.svg');
+}
+.sol-cards:hover .sol-img-4 img{
+  content:url('../../img/Landing/Zylem/cloud-powered-inverse.svg');
+}
+.sol-cards:hover .sol-img-5 img{
+  content:url('../../img/Landing/Zylem/email-reports-inverse.svg');
+}
+.sol-cards:hover .sol-img-6 img{
+  content:url('../../img/Landing/Zylem/interactive-inverse.svg');
+}
+
+#ourpro{
+  background-color: #65221A0D;
+}
+.pro-card{
+  box-shadow: 0px 1px 10px 1px #0000001A;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-inverse{
+  background-color: var(--primary);
+}
+
+@media(max-width:680px){
+
+  .pro-card{
+    height: 30rem;
+  }
+.reverse-column{
+  display: flex;
+  flex-direction: column-reverse;
+}
+}

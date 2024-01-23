@@ -1,0 +1,270 @@
+#hero {
+  background: url('../../img/Landing/Salesforce/image\ 22.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#patent{
+  background: url('../../img/Landing/Salesforce/image\ 27.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top center ;
+}
+
+.card{
+  padding:2rem;
+  border-radius: 1rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card:hover{
+  scale:1.05;
+}
+
+.card:hover .row img{
+  scale: 1.4;
+}
+
+.card-1{
+  background: url('../../img/Landing/Salesforce/Frame\ 49.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+.card-2{
+  background: url('../../img/Landing/Salesforce/Frame\ 50.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-3{
+  background: url('../../img/Landing/Salesforce/Frame\ 51.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-4{
+  background: url('../../img/Landing/Salesforce/Frame\ 52.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+
+.sol-cards{
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10);
+  padding: 2rem;
+  height: 100%;
+}
+
+.sol-cards:hover{
+  scale: 1.05;
+}
+
+.sol-cards h6{
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color:var(--black);
+  font-weight: var(--bold);
+}
+
+.sol-cards:hover .sol-img-1 img{
+  content:url('../../img/Landing/Salesforce/digital-data-inverse.svg');
+}
+.sol-cards:hover .sol-img-2 img{
+  content:url('../../img/Landing/Salesforce/location-tracking-inverse.svg');
+}
+.sol-cards:hover .sol-img-3 img{
+  content:url('../../img/Landing/Salesforce/detailed-reports-inverse.svg');
+}
+.sol-cards:hover .sol-img-4 img{
+  content:url('../../img/Landing/Salesforce/conduct-surveys-inverse.svg');
+}
+.sol-cards:hover .sol-img-5 img{
+  content:url('../../img/Landing/Salesforce/order-booking-inverse.svg');
+}
+.sol-cards:hover .sol-img-6 img{
+  content:url('../../img/Landing/Salesforce/promotion-marketing-inverse.svg');
+}
+
+
+#customer{
+  background: rgba(101, 34, 26, 0.05);
+  padding: 12rem 3rem;
+}
+
+#customer .item {
+  background: var(--white);
+  padding: 2rem;
+  height: 10rem;
+  
+}
+
+#customer .item h4{
+  color:var(--primary);
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: var(--bold);
+}
+
+
+.test-contain{
+  /* border-radius: 3rem;
+  background: var(--white);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10); */
+  /* padding-left: 3rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+  padding-top: 10rem; */
+  padding: 10rem 3rem;
+  background: url('../../img/Home/testi\ background.svg');
+  background-repeat: no-repeat;
+  background-position: auto 100%;
+  background-size: contain;
+}
+
+.award-section{
+  background: url('../../img/Home/testi\ back2.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: auto 100% !important;
+  background-size: contain !important;
+  padding:5rem 2rem !important;
+}
+.test-contain img{
+  /* border-radius: 50%; */
+}
+.test-contain .row h6{
+  font-size:1.6rem;
+  font-weight: var(--bold);
+  line-height: 2.4rem;
+  color:var(--black);
+}
+.test-contain .row img{
+  width: 50%;
+}
+
+.test-contain .row p:last-child{
+/* font-size: 1.4rem;
+line-height: 2.4rem; */
+font-size: 1.2rem;
+line-height: 2rem;
+font-weight: var(--regular);
+opacity:0.7;
+}
+
+
+.owl-prev{
+  position: absolute;
+  left: -5px;
+  top: 30%;
+}
+
+.owl-next{
+  position: absolute;
+  right:-5px;
+  top:30%;
+}
+
+
+#ready{
+  background: url('../../img/Home/zylem\ business\ solution.png');
+  background-position: auto 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.accordion-button::after { 
+  background-image: url("../../img/Landing/Salesforce/fi_plus.svg") ;
+  background-size: 22px;
+  height: 20px;
+  width: 20px;
+}
+.accordion-button:not(.collapsed)::after {
+  background: url("../../img/Landing/Salesforce/fi_minus.svg");
+
+}
+
+.accordion-item {
+  background-color: var(--white);
+  border: 0px;
+  box-shadow: 0px 1px 10px 1px #0000001A;
+  margin: 2rem;
+  padding: 1rem;
+}
+.accordion-button, .accordion-button:not(.collapsed){
+background: var(--white);
+border: 0;
+font-size: 1.8rem;
+line-height: 2.4rem;
+font-weight: var(--bold);
+color:var(--black);
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+.accordion-body p {
+  padding:0rem 2rem;
+  border-left: 3px solid var(--primary);
+  margin-left:10rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+@media all and (max-width: 1250px) {
+  .test-contain{
+   padding-bottom: 11rem;
+  }
+  }
+
+  
+@media (max-width:680px){
+  .card{
+    height: 25rem;
+  }
+  .card h4{
+    margin-top:1rem;
+  }
+  
+.test-contain{
+  padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 16rem;
+    background-size: cover;
+}
+
+.award-section{
+  background-size: cover !important;
+  padding: 10rem !important;
+}
+
+.sol-cards{
+  margin-top: 15rem;
+}
+ 
+.owl-prev{
+  left: -20px;
+}
+
+.owl-next{
+  right:-20px;
+}
+
+.accordion-body p {
+  margin-left:4rem;
+}
+}

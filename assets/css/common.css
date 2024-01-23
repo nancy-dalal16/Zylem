@@ -226,7 +226,24 @@ border:1px solid var(--primary);
     color:var(--darkblue);
 }
 
+.btn-green {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem !important;
+    border-radius: 2rem;
+    border:1px solid var(--green);
+    background: transparent;
+    color: var(--green);
+    font-weight: var(--semibold);
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    gap: 1rem;
+}
 
+.btn-green:hover{
+    background: var(--green);
+    color:var(--white);
+}
 
 h4 {
     color: var(--black);

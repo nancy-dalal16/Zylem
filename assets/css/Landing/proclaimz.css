@@ -1,0 +1,61 @@
+#hero {
+  background: url('../../img/Landing/ProClaimz/image\ 22.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position:center !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card-1{
+  background: url('../../img/Landing/ProClaimz/Frame\ 49.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+.card-2{
+  background: url('../../img/Landing/ProClaimz/Frame\ 50.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-3{
+  background: url('../../img/Landing/ProClaimz/Frame\ 51.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-4{
+  background: url('../../img/Landing/ProClaimz/Frame\ 52.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+.card-5{
+  background: url('../../img/Landing/ProClaimz/Frame\ 53.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+}
+
+
+.sol-cards:hover .sol-img-1 img{
+  content:url('../../img/Landing/ProClaimz/defining-schemes-inverse.svg');
+}
+.sol-cards:hover .sol-img-2 img{
+  content:url('../../img/Landing/ProClaimz/automation-scheme-inverse.svg');
+}
+.sol-cards:hover .sol-img-3 img{
+  content:url('../../img/Landing/ProClaimz/scheme-approval-inverse.svg');
+}
+.sol-cards:hover .sol-img-4 img{
+  content:url('../../img/Landing/ProClaimz/multiple-scheme-inverse.svg');
+}
+.sol-cards:hover .sol-img-5 img{
+  content:url('../../img/Landing/ProClaimz/easier-claim-inverse.svg');
+}
