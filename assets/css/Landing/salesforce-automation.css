@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+#hero p{
+  font-size:1.8rem;
+  line-height: 3rem;
+}
+
 #patent{
   background: url('../../img/Landing/Salesforce/image\ 27.png');
   background-repeat: no-repeat;
