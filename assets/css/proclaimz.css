@@ -1,5 +1,5 @@
 #hero {
-  background: url('../img/Proclaimz/proclaimz\ background.png') !important;
+  background: url('../img/Proclaimz/proclaimz-background.png') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position:center !important;
@@ -10,7 +10,7 @@
 }
 
 #boxes{
-  background: url('../img/Proclaimz/getting\ started\ background.png');
+  background: url('../img/Proclaimz/getting-started-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -84,7 +84,7 @@
 }
 
 .award-section{
-  background: url('../img/Home/testi\ back2.png') !important;
+  background: url('../img/Home/testi-back2.png') !important;
   background-repeat: no-repeat !important;
   background-position: auto 100% !important;
   background-size: contain !important;
@@ -108,14 +108,14 @@
 
 #security{
   background: #65221A0D;
-  background-image: url('../img/Proclaimz/security\ background.png');
+  background-image: url('../img/Proclaimz/security-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
 }
 
 #ready{
-  background: url('../img/Proclaimz/ready\ background.png');
+  background: url('../img/Proclaimz/ready-background.png');
   background-position: center;
   background-size: cover;
 }

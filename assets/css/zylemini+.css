@@ -1,5 +1,5 @@
 #hero {
-  background: url('../img/Zylemini/zylemini\ background.png');
+  background: url('../img/Zylemini/zylemini-background.png');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position:center right !important;
@@ -22,7 +22,7 @@
 }
 
 #why{
-  background: url('../img/Zylemini/image\ 20.png');
+  background: url('../img/Zylemini/image-20.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center right;

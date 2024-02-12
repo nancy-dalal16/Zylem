@@ -1,5 +1,5 @@
 #hero {
-  background: url('../img/BizzControl/bizzcontrol\ background.png');
+  background: url('../img/BizzControl/bizzcontrol-background.png');
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position:center right !important;
@@ -37,31 +37,31 @@
 
 
 .sol-card:hover .sol-img1 img{
-  content:url('../img/BizzControl/realtime\ sales-hover.svg');
+  content:url('../img/BizzControl/realtime-sales-hover.svg');
 }
 .sol-card:hover .sol-img2 img{
-  content:url('../img/BizzControl/Effective\ product-hover.svg');
+  content:url('../img/BizzControl/Effective-product-hover.svg');
 }
 .sol-card:hover .sol-img3 img{
-  content:url('../img/BizzControl/robust\ financial-hover.svg');
+  content:url('../img/BizzControl/robust-financial-hover.svg');
 }
 .sol-card:hover .sol-img4 img{
-  content:url('../img/BizzControl/efficient\ invoicinng-hover.svg');
+  content:url('../img/BizzControl/efficient-invoicinng-hover.svg');
 }
 .sol-card:hover .sol-img5 img{
-  content:url('../img/BizzControl/simplified\ taxation-hover.svg');
+  content:url('../img/BizzControl/simplified-taxation-hover.svg');
 }
 .sol-card:hover .sol-img6 img{
-  content:url('../img/BizzControl/flexible\ multi-device-hover.svg');
+  content:url('../img/BizzControl/flexible-multi-device-hover.svg');
 }
 .sol-card:hover .sol-img7 img{
   content:url('../img/BizzControl/stock-hover.svg');
 }
 .sol-card:hover .sol-img8 img{
-  content:url('../img/BizzControl/optimized\ logistics-hover.svg');
+  content:url('../img/BizzControl/optimized-logistics-hover.svg');
 }
 .sol-card:hover .sol-img9 img{
-  content:url('../img/BizzControl/customer\ relation-hover.svg');
+  content:url('../img/BizzControl/customer-relation-hover.svg');
 }
 
 @media (max-width:1280px) {

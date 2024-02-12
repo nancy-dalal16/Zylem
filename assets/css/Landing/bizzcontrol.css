@@ -2,7 +2,7 @@ header{
   padding:0;
 }
 #hero {
-  background: url('../../img/Landing/BizzControl/image\ 22.png') !important;
+  background: url('../../img/Landing/BizzControl/image-22.png') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position:center !important;
@@ -60,6 +60,56 @@ header{
 }
 
 
+.test-contain{
+  /* border-radius: 3rem;
+  background: var(--white);
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.10); */
+  /* padding-left: 3rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+  padding-top: 10rem; */
+  padding: 10rem 3rem;
+  background: url('../../img/Home/testi-background.svg');
+  background-repeat: no-repeat;
+  background-position: auto 100%;
+  background-size: contain;
+}
+
+.award-section{
+  background: url('../../img/Home/testi-back2.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: auto 100% !important;
+  background-size: contain !important;
+  padding:5rem 2rem !important;
+}
+.test-contain img{
+  /* border-radius: 50%; */
+}
+.test-contain .row h6{
+  font-size:1.6rem;
+  font-weight: var(--bold);
+  line-height: 2.4rem;
+  color:var(--black);
+}
+.test-contain .row img{
+  width: 50%;
+}
+
+.test-contain .row p:last-child{
+/* font-size: 1.4rem;
+line-height: 2.4rem; */
+font-size: 1.2rem;
+line-height: 2rem;
+font-weight: var(--regular);
+opacity:0.7;
+}
+
+@media all and (max-width: 1250px) {
+  .test-contain{
+   padding-bottom: 11rem;
+  }
+  }
+
 @media(max-width:680px){
 
 .reverse-column{
@@ -69,5 +119,19 @@ header{
 
 .text-cen{
   text-align: center;
+}
+
+
+.test-contain{
+  padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 16rem;
+    background-size: cover;
+}
+
+.award-section{
+  background-size: cover !important;
+  padding: 10rem !important;
 }
 }

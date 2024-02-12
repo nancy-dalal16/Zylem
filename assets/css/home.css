@@ -36,7 +36,7 @@
 
 
 #about{
-  background: url('../img/Home/Group\ 54.png');
+  background: url('../img/Home/Group-54.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top ;
@@ -108,7 +108,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
   bottom: 10%;
 }
 #patent{
-  background: url('../img/Home/zylem\ patented.png');
+  background: url('../img/Home/zylem-patented.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:top center ;
@@ -128,26 +128,26 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
   scale: 1.4;
 }
 .card-1{
-  background: url('../img/Home/Frame\ 49.png');
+  background: url('../img/Home/Frame-49.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right ;
 }
 
 .card-2{
-  background: url('../img/Home/Frame\ 50.png');
+  background: url('../img/Home/Frame-50.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right ;
 }
 .card-3{
-  background: url('../img/Home/Frame\ 51.png');
+  background: url('../img/Home/Frame-51.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right ;
 }
 .card-4{
-  background: url('../img/Home/Frame\ 52.png');
+  background: url('../img/Home/Frame-52.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right ;
@@ -168,7 +168,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 .hex{
   /* background: var(--white); */
   padding: 12rem 4rem;
-  background-image: url('../img/Home/Polygon\ 2.png');
+  background-image: url('../img/Home/Polygon-2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +191,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 }
 
 .zylem-product{
-  background-image: url('../img/Home/Zylem\ Product.png') !important;
+  background-image: url('../img/Home/Zylem-Product.png') !important;
 }
 
 .row-hex1{
@@ -276,7 +276,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 
 
 .sol-img3{
-  background-image: url('../img/Home/tailored\ solution.svg');
+  background-image: url('../img/Home/tailored-solution.svg');
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
@@ -297,7 +297,7 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 }
 
 .sol-img4{
-  background-image: url('../img/Home/data\ driven.svg');
+  background-image: url('../img/Home/data-driven.svg');
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
@@ -310,11 +310,11 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
 }
 
 .sol-img4:hover{
-  background-image: url('../img/Home/data\ driven-hover.svg');
+  background-image: url('../img/Home/data-driven-hover.svg');
 }
 
 .sol-card:hover .sol-img4{
-  background-image: url('../img/Home/data\ driven-hover.svg');
+  background-image: url('../img/Home/data-driven-hover.svg');
 }
 
 
@@ -344,14 +344,14 @@ box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
   padding-bottom: 10rem;
   padding-top: 10rem; */
   padding: 10rem 3rem;
-  background: url('../img/Home/testi\ background.svg');
+  background: url('../img/Home/testi-background.svg');
   background-repeat: no-repeat;
   background-position: auto 100%;
   background-size: contain;
 }
 
 .award-section{
-  background: url('../img/Home/testi\ back2.png') !important;
+  background: url('../img/Home/testi-back2.png') !important;
   background-repeat: no-repeat !important;
   background-position: auto 100% !important;
   background-size: contain !important;
@@ -405,7 +405,7 @@ padding: 2rem;;
 }
 
 #ready{
-  background: url('../img/Home/zylem\ business\ solution.png');
+  background: url('../img/Home/zylem-business-solution.png');
   background-position: auto 100%;
   background-repeat: no-repeat;
   background-size: cover;
