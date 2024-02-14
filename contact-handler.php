@@ -3,7 +3,7 @@
 $errors = '';
 $myemail = 'sales@sapl.net';//<-----Put Your email address here.
 if(empty($_POST['name'])  ||
-	empty($_POST['email']) ||
+	empty($_POST['email'])
 {
     $errors .= "\n Error: all fields are required";
 }
@@ -14,12 +14,11 @@ $phone = $_POST['phone'];
 $product = $_POST['product'];
 $comment = $_POST['comment'];
 $url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$utm_source = $_REQUEST['utm_source'];
-$utm_medium = $_REQUEST['utm_medium'];
-$utm_campaign = $_REQUEST['utm_campaign'];
-$utm_term = $_REQUEST['utm_term'];
-$utm_content = $_REQUEST['utm_content'];
-
+$utm_source = ! $_REQUEST['utm_source'] ? 'null' : $_REQUEST['utm_source'];
+$utm_medium = ! $_REQUEST['utm_medium'] ? 'null' : $_REQUEST['utm_medium'];
+$utm_campaign = ! $_REQUEST['utm_campaign'] ? 'null' : $_REQUEST['utm_campaign'];
+$utm_term = ! $_REQUEST['utm_term'] ? 'null' : $_REQUEST['utm_term'];
+$utm_content = ! $_REQUEST['utm_content'] ? 'null' : $_REQUEST['utm_content'];
 
 	$to = $myemail; 
 	$email_subject = "Contact Inquiry From: $name";
