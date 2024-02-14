@@ -17,14 +17,18 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $product = $_POST['product'];
 $comment = $_POST['comment'];
+$url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$utm_source = $_REQUEST['utm_source'];
+$utm_medium = $_REQUEST['utm_medium'];
+$utm_campaign = $_REQUEST['utm_campaign'];
+$utm_term = $_REQUEST['utm_term'];
+$utm_content = $_REQUEST['utm_content'];
 
- 
- 
 
 	$to = $myemail; 
 	$email_subject = "Contact Inquiry From: $name";
 	$email_body = "You have received a new message. ".
-	" Here are the details:\n Name: $name \n Email: $email \n Phone: $phone \n Product: $product  \n Comment: $comment "; 
+	" Here are the details:\n <b>Name:</b> $name \n <b>Email:</b> $email \n <b>Phone:</b> $phone \n <b>Product:</b> $product  \n <b>Comment:</b> $comment \n <b>URL:</b> $url \n <b>Utm Source:</b> $utm_source \n <b>Utm Medium:</b> $utm_medium \n <b>Utm Campaign:</b> $utm_campaign \n <b>Utm Term:</b> $utm_term \n <b>Utm Content:</b> $utm_content"; 
 	
 	$headers = "From: sales@sapl.net"; 
 	
