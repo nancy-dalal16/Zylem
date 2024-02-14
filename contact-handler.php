@@ -3,7 +3,7 @@
 $errors = '';
 $myemail = 'sales@sapl.net';//<-----Put Your email address here.
 if(empty($_POST['name'])  ||
-	empty($_POST['email'])
+	empty($_POST['email']))
 {
     $errors .= "\n Error: all fields are required";
 }
