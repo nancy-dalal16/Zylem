@@ -23,7 +23,7 @@ $utm_content = ! $_REQUEST['utm_content'] ? 'null' : $_REQUEST['utm_content'];
 	$to = $myemail; 
 	$email_subject = "Contact Inquiry From: $name";
 	$email_body = "You have received a new message. ".
-	" Here are the details:\n <b>Name:</b> $name \n <b>Email:</b> $email \n <b>Phone:</b> $phone \n <b>Product:</b> $product  \n <b>Comment:</b> $comment \n <b>URL:</b> $url \n <b>Utm Source:</b> $utm_source \n <b>Utm Medium:</b> $utm_medium \n <b>Utm Campaign:</b> $utm_campaign \n <b>Utm Term:</b> $utm_term \n <b>Utm Content:</b> $utm_content"; 
+	" Here are the details:\n Name: $name \n Email: $email \n Phone: $phone \n Product: $product  \n Comment: $comment \n URL: $url \n Utm Source: $utm_source \n Utm Medium: $utm_medium \n Utm Campaign: $utm_campaign \n Utm Term: $utm_term \n Utm Content: $utm_content"; 
 	
 	$headers = "From: sales@sapl.net"; 
 	
